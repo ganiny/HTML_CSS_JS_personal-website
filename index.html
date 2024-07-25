@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Mohamed Abubakr</title>
+	<link rel="stylesheet" href="./styles/style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet" />
+</head> 
+
+<body>
+	<div class="container">
+		<video class="video-loop" autoplay loop muted>
+			<source src="./video-loop.mp4" type="video/mp4">
+		</video>
+
+		<header class="header">
+			<label class="burger-menu" for="menu">
+				<div class="burger-menu__bar"></div>
+				<div class="burger-menu__bar"></div>
+				<div class="burger-menu__bar"></div>
+			</label>
+			<input id="menu" class="burger-menu__checkbox" type="checkbox" >
+			<nav class="navigation">
+				<ul class="navigation__list">
+					<li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+					<li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+					<li><a href="#media" class="navigation__link navigation__media">Media</a></li>
+					<li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
+					<li><a href="#my-clients" class="navigation__link navigation__my-clients">My Clients</a></li>
+					<li><a href="#contact" class="navigation__link navigation__contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="toggle">
+				<h3 class="toggle__title">Switch Theme</h3>
+				<input type="checkbox" name="toggle checkbox" id="toggle" class="toggle__checkbox" />
+				<label for="toggle" class="toggle__label"></label>
+			</div>
+		</header>
+
+		<section class="bio section" id="bio">
+			<div class="bio-data">
+				<h1 class="bio__heading">
+					Hi There, I'M A Passionate Junior Frontend | Javascript | React
+					Developer
+				</h1>
+				<p class="bio__objective">
+					My name is <span class="bio__name">Mohamed Abubakr</span>, I am a
+					passionate and driven Junior Frontend Developer specializing in
+					JavaScript and React, eager to contribute to innovative projects and
+					grow within a dynamic team. With a strong foundation in frontend
+					technologies and a proactive approach to learning, I am excited to
+					leverage my skills and enthusiasm to make meaningful contributions
+					in the field of web development.
+				</p>
+				<a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+				<a href="./mohamedAbusreaResume.pdf" class="bio__links find-out-link">Download CV <span class="bio__arrow">↓</span></a>
+			</div>
+			<div class="bio__pic--content">
+				<img src="images/IMG-20240518-WA0001~2.png" alt="image of mohamed abubakr" class="bio__pic" />
+			</div>
+		</section>
+
+		<section class="skills section-with-bg" id="skills">
+			<h2 class="h2__heading">SKILLS</h2>
+			<ul class="skills__list">
+				<li class="skills__listItems">
+					<h2 class="skills__itemsHeading">HTML</h2>
+					<span class="skills__experience">2 years<span>
+				</li>
+				<li class="skills__listItems">
+					<h2 class="skills__itemsHeading">CSS</h2>
+					<span class="skills__experience">2 years<span>
+				</li>
+				<li class="skills__listItems">
+					<h2 class="skills__itemsHeading">Javascript</h2>
+					<span class="skills__experience">1 year</span>
+				</li>
+				<li class="skills__listItems">
+					<h2 class="skills__itemsHeading">React</h2>
+					<span class="skills__experience">1 year</span>
+				</li>
+				<li class="skills__listItems">
+					<h2 class="skills__itemsHeading">C#</h2>
+					<span class="skills__experience">2 years<span>
+				</li>
+				<li class="skills__listItems">
+					<h2 class="skills__itemsHeading">Python</h2>
+					<span class="skills__experience">1 year</span>
+				</li>
+			</ul>
+		</section>
+
+		<section id="media" class="media section">
+			<video class="media__video" controls muted poster="./images/thumbnail.jpg" preload="auto">
+				<source src="/video.mp4" type="video/mp4">
+			</video>
+		</section>
+
+		<section id="projects" class="projects section">
+			<h2 class="h2__heading">MY FEATURED <br> PROJECTS</h2>
+			<ul class="projects__list">
+				<li class="projects__listItems">
+					<img src="./images/project-1.jpg" alt="Quran Tab Extension" class="projects__itemImage">
+					<div class="projects__itemDiv">
+						<h2 class="projects__itemHeading">Quran Tab <br> Extension</h2>
+						<p class="projects__itemDescription">Quran Tab is an Islamic new tab page that will keep you
+							inspired by a
+							verse from the Quran every time you open a new tab that helps you achieve your "Khatma" and
+							keeps you
+							connected with the words of Allah.</p>
+						<ul class="projects__linksList">
+							<li class="projects__linksItems"><a href="#" class="projects__links" target="_blank">Chrome
+									Link</a></li>
+							<li class="projects__linksItems"><a href="#" class="projects__links" target="_blank">-Edge
+									Link</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="projects__listItems">
+					<div class="projects__itemDiv">
+						<h2 class="projects__itemHeading">Quran Station <br>
+							Extension</h2>
+						<p class="projects__itemDescription">Small extension that gives you access to over 100 stations
+							to help you
+							listen to the Quran from your favorite reciters easily Quran-Station has over 100 stations
+							to help you
+							listen to the Quran from your favorite reciters in a quick and easy way.</p>
+						<ul class="projects__linksList">
+							<li class="projects__linksItems"><a href="#" class="projects__links" target="_blank">Chrome
+									Link</a></li>
+							<li class="projects__linksItems"><a href="#" class="projects__links"
+									target="_blank">-Firefox Link</a>
+							</li>
+							<li class="projects__linksItems"><a href="#" class="projects__links" target="_blank">-Edge
+									Link</a></li>
+						</ul>
+					</div>
+					<img src="./images/project-2.jpg" alt="Quran Station
+            Extension" class="projects__itemImage">
+				</li>
+			</ul>
+		</section>
+
+		<section id="my-clients" class="my-clients section section-with-bg">
+			<h2 class="h2__heading">WHAT MY <br> CLIENTS SAY.</h2>
+			<div class="clients__opinions">
+				<div class="clients__wrapper">
+					<p class="clients__opinion">Abubakr has the advantageous ability to understand a problem and
+						implement code to
+						a high standard within the deadline. Each project we have worked on, I know I can completely
+						trust Abubakr
+						to own his tasks and complete what is needed when asked of him.</p>
+					<p class="clients__opinion">Mohamed will patiently listen to you and give you his own Ideas as well,
+						and in
+						the end, he comes up with something completely different from what you’re expecting, but the
+						good news is,
+						you’ll always love it.</p>
+					<p class="clients__opinion">I had a chance to work closely with Mohamed as a direct manager from his
+						first
+						day at DeliveryHero until my last day there (6+months). Mohamed's biggest strengths that I
+						admire are taking
+						initiatives on personal and team level, and driving them.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact section">
+			<div>
+				<p class="contact__description">
+					Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few
+					time zones away.
+				</p>
+				<a href="mailto:gen2022eg@gmail.com" class="contact__email">gen2022eg@gmail.com</a>
+				<div class="contact__socials">
+					<a href="#" class="contact__social">
+						<img src="./images/brand/github.svg" alt="github icon">
+					</a>
+					<a href="#" class="contact__social">
+						<img src="./images/brand/instagram.svg" alt="instagram icon">
+					</a>
+					<a href="#" class="contact__social">
+						<img src="./images/brand/LinkedIn.svg" alt="LinkedIn icon">
+					</a>
+					<a href="#" class="contact__social">
+						<img src="./images/brand/twitter.svg" alt="twitter icon">
+					</a>
+					<a href="#" class="contact__social">
+						<img src="./images/brand/youtube.svg" alt="youtube icon">
+					</a>
+					<a href="#" class="contact__social">
+						<img src="./images/brand/facebook.svg" alt="facebook icon">
+					</a>
+					
+				</div>
+			</div>
+
+			<div class="contact__formContent">
+				<h2 class="h2__heading">LET'S WORK <br> TOGETHER</h2>
+
+				<form action="results.html">
+					<div class="contact__inputs">
+						<input type="text" class="contact__input" required name="fullName " placeholder="Full Name">
+						<input type="tel" class="contact__input" required name="tel" placeholder="Phone No." pattern="[0-9]+">
+					</div>
+					<textarea class="contact__input contact__textarea" name="description" id="description" placeholder="Your Message" rows="1"></textarea>
+					<input type="submit" class="contact__button" value="Send Message">
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer">© 2024 by Mohamed Abubakr</footer>
+	</div>
+</body>
+
+</html>
